@@ -30,7 +30,7 @@ const CheckBoxList = () => {
         <div className='container'>
             <p className='header'>Checkbox List</p>
             {
-                checkboxes.map((checkbox, index) => {
+                checkboxes.map((checkbox) => {
                     return (
                         <div key={checkbox.id}>
                             <input

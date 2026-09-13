@@ -16,4 +16,13 @@
     border-radius: 5px;
     border: 1px solid #d3d3d3;
     background: #d3d3d3;
+    position: relative;
+}
+.progress-bar::after {
+    content: "";
+    position: absolute;
+    background-color: #d3d3d3;
+    height: 100%;
+    width: 300px;
+    z-index: -1;
 }

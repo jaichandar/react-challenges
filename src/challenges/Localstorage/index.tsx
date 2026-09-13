@@ -8,12 +8,12 @@ const LocalStorage = () => {
             <p style={{ marginTop: '10px', textAlign: 'center' }}>LocalStorage</p>
             <span>Name: </span>
             <input 
-                value={value}
+                value={value ?? ''}
                 onChange={(e) => handleOnChange(e)}
             />
             <span>Email: </span>
             <input 
-                value={email}
+                value={email ?? ''}
                 onChange={(e) => handleEmailChange(e)}
             />
         </div>

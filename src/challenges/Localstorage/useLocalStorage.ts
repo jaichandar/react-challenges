@@ -1,16 +1,9 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 export const useLocalStorage = (name: string) => {
-    const [value, setValue] = useState('');
-
-    useEffect(() => {
-        if (typeof window !== 'undefined') {
-            const valueFromLocalStorage = localStorage.getItem(name);
-            if (valueFromLocalStorage) {
-                setValue(valueFromLocalStorage);
-            }
-        }
-    }, [])
+    const [value, setValue] = useState(() => {
+        return localStorage.getItem(name);
+    })
 
     const handleOnChange = (e:React.ChangeEvent<HTMLInputElement>) => {
         setValue(e.target.value);

@@ -1,0 +1,37 @@
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.btn {
+    background: #d3d3d3;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.red-background, .green-background {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d3d3d3;
+    margin: 10px;
+    background: tomato;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.green-background {
+    background: lightgreen;
+}
+
+.mx-5 {
+    margin: 0px 10px;
+}
+

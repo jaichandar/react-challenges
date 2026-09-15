@@ -4,12 +4,13 @@ import './App.css'
 // import CheckBoxList from './challenges/checkbox';
 // import ReactionTime from './challenges/ReactionTime'
 // import Testing from './challenges/testing'
-import Timer from './challenges/Timer/Timer'
+// import Timer from './challenges/Timer/Timer'
+import FormValidation from './challenges/FormValidation/FormValidation'
 
 function App() {
   return (
     <>
-      <Timer />
+      <FormValidation />
     </>
   )
 }

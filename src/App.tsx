@@ -6,12 +6,13 @@ import './App.css'
 // import Testing from './challenges/testing'
 // import Timer from './challenges/Timer/Timer'
 // import FormValidation from './challenges/FormValidation/FormValidation'
-import { Filters } from './challenges/Filters/Filters';
+// import { Filters } from './challenges/Filters/Filters';
+import { Theme } from './challenges/Theme/Theme';
 
 function App() {
   return (
     <>
-    <Filters />
+      <Theme />
     </>
   )
 }

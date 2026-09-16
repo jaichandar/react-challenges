@@ -74,7 +74,7 @@ const FormValidation = () => {
     }
 
     return (
-        <div>
+        <div className='container'>
             <form onSubmit={onSubmit}>
                 <input 
                     placeholder='First Name'
@@ -114,7 +114,7 @@ const FormValidation = () => {
                     onChange={(e) => handleOnChange(e, 'confirmPassword')}
                 />
                 {errors.confirmPassword ? <p className='error'>{errors.confirmPassword}</p> : null}
-                <button type='submit'>Submit</button>
+                <button type='submit' className='btn'>Submit</button>
             </form>
         </div>
     )

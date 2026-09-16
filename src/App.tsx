@@ -5,12 +5,13 @@ import './App.css'
 // import ReactionTime from './challenges/ReactionTime'
 // import Testing from './challenges/testing'
 // import Timer from './challenges/Timer/Timer'
-import FormValidation from './challenges/FormValidation/FormValidation'
+// import FormValidation from './challenges/FormValidation/FormValidation'
+import { Filters } from './challenges/Filters/Filters';
 
 function App() {
   return (
     <>
-      <FormValidation />
+    <Filters />
     </>
   )
 }

@@ -1,0 +1,48 @@
+.container {
+    max-width: 1100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.filter-wrapper {
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 5px 10px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid brown;
+}
+
+.selected {
+    background: brown;
+    color: white;
+}
+
+.item-wrapper {
+    border: 1px solid #d3d3d3;
+    max-width: 1100px;
+    margin: 10px auto;
+
+    display: flex;  
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid black;
+    padding: 5px;
+    flex: 1;
+    flex-basis: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 

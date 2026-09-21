@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import './App.css'
 // import LocalStorage from './challenges/Localstorage'
 // import ProgressBar from './challenges/ProgressBar';
@@ -7,12 +8,15 @@ import './App.css'
 // import Timer from './challenges/Timer/Timer'
 // import FormValidation from './challenges/FormValidation/FormValidation'
 // import { Filters } from './challenges/Filters/Filters';
-import { Theme } from './challenges/Theme/Theme';
+// import { Theme } from './challenges/Theme/Theme';
+// import Table from './challenges/Table';
+import TodoList from './challenges/TodoList/TodoList';
 
 function App() {
   return (
     <>
-      <Theme />
+      <ToastContainer />
+      <TodoList />
     </>
   )
 }

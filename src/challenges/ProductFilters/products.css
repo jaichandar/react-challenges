@@ -1,0 +1,37 @@
+.container {
+    max-width: 1300px;
+    overflow-y: auto;
+    border: 1px solid #d3d3d3;
+    margin: 45px auto;
+    border-radius: 5px;
+    display: flex;
+}
+
+.sidebar-wrapper {
+    padding: 10px;
+    flex: 1;
+}
+
+.items-wrapper {
+    border: 1px solid #d3d3d3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    flex: 4;
+    padding: 10px;
+    height: 500px;
+    overflow-y: auto;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.item {
+    border: 1px solid #d3d3d3;
+    flex-basis: 27%;
+    border-radius: 5px;
+    padding: 10px;
+    color: blue;
+    height: 120px;
+
+}

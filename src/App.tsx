@@ -9,13 +9,14 @@ import './App.css'
 // import FormValidation from './challenges/FormValidation/FormValidation'
 // import { Filters } from './challenges/Filters/Filters';
 // import { Theme } from './challenges/Theme/Theme';
-import Table from './challenges/Table';
+// import Table from './challenges/Table';
+import TodoList from './challenges/TodoList/TodoList';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Table />
+      <TodoList />
     </>
   )
 }

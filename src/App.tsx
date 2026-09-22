@@ -10,13 +10,14 @@ import './App.css'
 // import { Filters } from './challenges/Filters/Filters';
 // import { Theme } from './challenges/Theme/Theme';
 // import Table from './challenges/Table';
-import TodoList from './challenges/TodoList/TodoList';
+// import TodoList from './challenges/TodoList/TodoList';
+import Grid from './challenges/GridSystem/Grid';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <TodoList />
+      <Grid />
     </>
   )
 }

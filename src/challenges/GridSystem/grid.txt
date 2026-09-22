@@ -1,0 +1,5 @@
+col-12 -> full width
+col-sm -> 578px - 767px
+col-md => 768px - 991px
+col-lg -> 992px = 1140px;
+col-xl => 1141 -> 

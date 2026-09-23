@@ -11,13 +11,14 @@ import './App.css'
 // import { Theme } from './challenges/Theme/Theme';
 // import Table from './challenges/Table';
 // import TodoList from './challenges/TodoList/TodoList';
-import Grid from './challenges/GridSystem/Grid';
+// import Grid from './challenges/GridSystem/Grid';
+import Debounce from './challenges/debounce/Debounce';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Grid />
+      <Debounce />
     </>
   )
 }

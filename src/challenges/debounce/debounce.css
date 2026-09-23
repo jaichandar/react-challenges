@@ -1,0 +1,11 @@
+.input {
+    width: 350px;
+    padding: 5px 10px;
+    display: block;
+}
+
+.dropdown-wrapper {
+    max-height: 350px;
+    border: 1px solid #d3d3d3;
+    overflow: auto;
+}

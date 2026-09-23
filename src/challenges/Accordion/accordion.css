@@ -1,0 +1,31 @@
+.wrapper {
+    border: 1px solid #d3d3d3; 
+    max-width: 900px; 
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.accordion-wrapper {
+    border: 1px solid green;
+}
+
+.acc-title {
+    border: 1px solid red;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.acc-body {
+    border: 1px solid blue;
+    padding: 10px;
+}

@@ -13,13 +13,15 @@ import './App.css'
 // import TodoList from './challenges/TodoList/TodoList';
 // import Grid from './challenges/GridSystem/Grid';
 // import Debounce from './challenges/debounce/Debounce';
-import Accordion from './challenges/Accordion/Accordion';
+// import Accordion from './challenges/Accordion/Accordion';
+// import Effects from './challenges/Effects/Effect';
+import Parent from './challenges/RenderProps/Parent';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Accordion />
+      <Parent />
     </>
   )
 }

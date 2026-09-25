@@ -1,4 +1,5 @@
 import { ToastContainer } from 'react-toastify';
+import { lazy, Suspense } from 'react';
 import './App.css'
 // import LocalStorage from './challenges/Localstorage'
 // import ProgressBar from './challenges/ProgressBar';
@@ -13,15 +14,16 @@ import './App.css'
 // import TodoList from './challenges/TodoList/TodoList';
 // import Grid from './challenges/GridSystem/Grid';
 // import Debounce from './challenges/debounce/Debounce';
-// import Accordion from './challenges/Accordion/Accordion';
 // import Effects from './challenges/Effects/Effect';
-import Parent from './challenges/RenderProps/Parent';
+// import Parent from './challenges/RenderProps/Parent';
+// const Accordion = lazy(() => import('./challenges/Accordion/Accordion'));
+const WebWorkers = lazy(() => import('./challenges/WebWorkers/WebWorker'));
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Parent />
+      <WebWorkers />
     </>
   )
 }

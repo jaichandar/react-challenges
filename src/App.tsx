@@ -20,16 +20,15 @@ import './App.css'
 // const WebWorkers = lazy(() => import('./challenges/WebWorkers/WebWorker'));
 // import { TodoProvider } from './challenges/Context/TodoContext';
 // import TodoList from './challenges/Context/TodoList';
-import TodoList from './challenges/TodoList2/TodoList';
-import TodoProvider from './challenges/TodoList2/TodoContext';
+// import TodoList from './challenges/TodoList2/TodoList';
+// import TodoProvider from './challenges/TodoList2/TodoContext';
+import Dashboard from './challenges/Hoc/Index';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <TodoProvider>
-        <TodoList />
-      </TodoProvider>
+      <Dashboard testing={'test'}/>
     </>
   )
 }

@@ -22,13 +22,13 @@ import './App.css'
 // import TodoList from './challenges/Context/TodoList';
 // import TodoList from './challenges/TodoList2/TodoList';
 // import TodoProvider from './challenges/TodoList2/TodoContext';
-import Dashboard from './challenges/Hoc/Index';
+// import Dashboard from './challenges/Hoc/Index';
+// import Tabs from './challenges/Tabs/Tabs';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Dashboard testing={'test'}/>
     </>
   )
 }

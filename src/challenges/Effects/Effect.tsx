@@ -1,4 +1,4 @@
-import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 
 const Effects = () => {
     const paraRef = useRef(null);
@@ -10,7 +10,7 @@ const Effects = () => {
 
     useLayoutEffect(() => {
         if (paraRef.current) {
-            const height = 100;
+            // const height = 100;
             // paraRef.current.style.top = `${height}px`;
         }
     }, [show]);

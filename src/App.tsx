@@ -24,13 +24,14 @@ import './App.css'
 // import TodoProvider from './challenges/TodoList2/TodoContext';
 // import Dashboard from './challenges/Hoc/Index';
 // import Tabs from './challenges/Tabs/Tabs';
-import Table from './challenges/Table2/Table';
+// import Table from './challenges/Table2/Table';
+import Ems from './challenges/Ems/Ems';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Table />
+      <Ems />
     </>
   )
 }

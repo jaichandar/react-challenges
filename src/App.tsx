@@ -25,13 +25,14 @@ import './App.css'
 // import Dashboard from './challenges/Hoc/Index';
 // import Tabs from './challenges/Tabs/Tabs';
 // import Table from './challenges/Table2/Table';
-import Ems from './challenges/Ems/Ems';
+// import Ems from './challenges/Ems/Ems';
+import Filter from './challenges/Filter2';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Ems />
+      <Filter />
     </>
   )
 }

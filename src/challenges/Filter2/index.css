@@ -1,0 +1,36 @@
+.items-wrapper {
+    max-height: 650px;
+    overflow: scroll;
+    border: 1px solid #d3d3d3;
+}
+
+.product-wrap {
+    padding: 10px;
+}
+
+.title-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+.image-wrapper {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+}
+
+.img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.item {
+    border: 1px solid #d4d4d4;
+}
+
+.filter-wrapper {
+    border: 1px solid #143123;
+}

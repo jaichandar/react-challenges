@@ -29,7 +29,6 @@ const Ems = () => {
     }
 
     const hideCardNumber = (cardNumber: string): string => {
-        console.log(cardNumber.length, "<-- cardNumber")
 
         let card = '';
         for (let i = 0; i < 10; i++) {
@@ -43,7 +42,7 @@ const Ems = () => {
     }
 
     return (
-        <div className='container' style={{ border: '1px solid red' }}>
+        <div className='container' style={{ border: '1px solid #d3d3d3', borderRadius: '3px' }}>
             <p className='my-2 text-center'>EMS</p>
             <div className='container'>
                 <input 

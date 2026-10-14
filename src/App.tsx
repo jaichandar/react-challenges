@@ -27,13 +27,14 @@ import './App.css'
 // import Table from './challenges/Table2/Table';
 // import Ems from './challenges/Ems/Ems';
 // import Filter from './challenges/Filter2';
-import Loader from './challenges/Loader';
+// import Loader from './challenges/Loader';
+import Parent from './challenges/TodoList1';
 
 function App() {
   return (
     <>
       <ToastContainer />
-      <Loader />
+      <Parent />
     </>
   )
 }

@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useMemo } from "react";
+import { useEffect, useState, useRef } from "react";
 import utils from './utils';
 import { toast } from "react-toastify";
 import Product from "./Product";

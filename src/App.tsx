@@ -31,16 +31,17 @@ import './App.css'
 // import Parent from './challenges/TodoList1';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+// import Tanstack from './challenges/Tanstack';
+import Todo from './challenges/crud';
 
 const queryClient = new QueryClient();
-import Tanstack from './challenges/Tanstack';
 
 function App() {
   return (
     <>
       <ToastContainer />
       <QueryClientProvider client={queryClient}>
-        <Tanstack />
+        <Todo />
         <ReactQueryDevtools />
       </QueryClientProvider>
     </>
